@@ -14,7 +14,7 @@ document.querySelector('#app').innerHTML = `
     <div class="box">
         <div class="title">
             <span class="block"></span>
-            <h1>Christian Paranas<span></span></h1>
+            <h1>Yeddah Marie Quijano<span></span></h1>
         </div>
 
         <div class="role">
