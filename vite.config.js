@@ -1,4 +1,4 @@
-const { resolve } require('path')
+const { resolve } = require('path')
 
 
 module.exports = {
@@ -6,7 +6,7 @@ module.exports = {
 		rollupOptions: {
 			input: {
 				main: resolve(__dirname, 'index.html')
-				nested: resolve(__dirname, '/nested/chapter2.html')
+				pages: resolve(__dirname, '/pages/chapter2.html')
 			}
 		}
 	}
