@@ -304,6 +304,27 @@ body {
 
     }
   }
+
+  .list {
+
+    h3 {
+      margin-top: 20px;
+    }
+
+    ul, ol, dl {
+      li {
+        margin-left: 30px;
+      }
+
+      dt {
+        margin-left: 10px;
+      }
+
+      dd {
+        margin-left: 20px;
+      }
+    }
+  }
 }
 
 a {
