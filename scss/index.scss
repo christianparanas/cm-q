@@ -325,6 +325,35 @@ body {
       }
     }
   }
+
+  .tourist {
+
+    .aa {
+      border: 2px solid #e91e63;
+      width: fit-content;
+      padding: 4px 20px;
+      margin: 20px 0 10px;
+    }
+
+    .dis-con {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+
+      div {
+        img {
+          width: 100%;
+        }
+
+        .qq {
+          padding: 3px 0;
+          margin-bottom: 15px;
+          width: fit-content;
+          border-bottom: 2px solid #e91e63;
+        }
+      }
+    }
+  }
 }
 
 a {
@@ -347,5 +376,11 @@ a {
       margin: 80px auto;
       overflow-x: hidden;
     }    
+
+    .tourist {
+      .dis-con {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
   }
 }
