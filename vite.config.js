@@ -6,7 +6,7 @@ module.exports = {
 		rollupOptions: {
 			input: {
 				main: resolve(__dirname, 'index.html')
-				pages: resolve(__dirname, '/pages/chapter2.html')
+				nested: resolve(__dirname, '/pages/chapter2.html')
 			}
 		}
 	}
