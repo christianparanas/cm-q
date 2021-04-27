@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,7 +33,6 @@
   	.pushable {
   		-webkit-tap-highlight-color: transparent;
 	    background: #091a28;
-
 	    border-radius: 12px;
 	    border: none;
 	    padding: 0;
@@ -37,7 +42,7 @@
 	  }
 	  .front {
 	    display: block;
-	    padding: 10px 30px;
+	    padding: 10px 20px;
 	    border-radius: 12px;
 	    font-size: 1.25rem;
 	    background: #1f2937;
@@ -57,7 +62,7 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
 
 * {
   margin: 0;
@@ -71,7 +76,7 @@ body, html {
 .container {
   width: 100%;
   height: 100vh;
-  padding-top: 40px;
+  padding-top: 100px;
   
 
   display: flex;
@@ -79,7 +84,7 @@ body, html {
 
   .box {
     width: fit-content;
-    height: 250px;
+    height: fit-content;
     position: relative;
     display: flex;
     justify-content: center;
@@ -253,5 +258,59 @@ body, html {
   }
   100% {
     opacity: 0.5;
+  }
+}
+
+
+
+
+.page_container {
+  padding: 20px;
+  background: #2F495E;
+  height: 100vh;
+  color: #f5f7fa;
+  font-family: 'Poppins';
+  position: relative;
+
+  .pushable {
+    position: absolute;
+    right: 20px;
+    -webkit-tap-highlight-color: transparent;
+    background: #091a28;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    outline: none;
+
+    .front {
+      display: block;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      background: #1f2937;
+      color: white;
+      transform: translateY(-6px);
+    }
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+  .pushable:hover .front {
+    background: #e91e63;
+  }
+
+  .page_con {
+    margin-top: 80px;
+
+    .title {
+      background: #e91e63;
+      width: fit-content;
+      padding: 5px 10px;
+      margin-bottom: 30px;
+    }
   }
 }

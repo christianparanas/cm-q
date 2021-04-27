@@ -1,40 +1,40 @@
-import './style.scss'
+import './scss/index.scss'
 
 document.querySelector('#app').innerHTML = `
 	<div class="nav">
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter2.html'" class="pushable">
 		  <span class="front">
-		    ACT 2
+		    Chapter 2
 		  </span>
 		</button>
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter3.html'" class="pushable">
 		  <span class="front">
-		    ACT 3
+		    Chapter 3
 		  </span>
 		</button>
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter4.html'" class="pushable">
 		  <span class="front">
-		    ACT 4
+		    Chapter 4
 		  </span>
 		</button>
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter5.html'" class="pushable">
 		  <span class="front">
-		    ACT 5
+		    Chapter 5
 		  </span>
 		</button>
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter6.html'" class="pushable">
 		  <span class="front">
-		    ACT 6
+		    Chapter 6
 		  </span>
 		</button>
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter7.html'" class="pushable">
 		  <span class="front">
-		    ACT 7
+		    Chapter 7
 		  </span>
 		</button>
-		<button class="pushable">
+		<button onclick="document.location='/pages/chapter8.html'" class="pushable">
 		  <span class="front">
-		    ACT 8
+		    Chapter 8
 		  </span>
 		</button>
 	</div>
