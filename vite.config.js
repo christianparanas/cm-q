@@ -12,6 +12,7 @@ module.exports = {
 				page4: resolve(__dirname, '/pages/chapter5.html'),
 				page6: resolve(__dirname, '/pages/chapter6.html'),
 				page7: resolve(__dirname, '/pages/chapter7.html'),
+				page8: resolve(__dirname, '/pages/chapter8.html'),
 			}
 		}
 	}
