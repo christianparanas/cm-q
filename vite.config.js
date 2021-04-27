@@ -6,8 +6,8 @@ module.exports = {
 		rollupOptions: {
 			input: {
 				main: resolve(__dirname, 'index.html'),
-				pages: resolve(__dirname, '/pages/chapter2.html', '/pages/chapter3.html')
-	
+				page1: resolve(__dirname, '/pages/chapter2.html'),
+				page2: resolve(__dirname, '/pages/chapter3.html'),
 			}
 		}
 	}
