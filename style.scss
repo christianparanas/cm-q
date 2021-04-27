@@ -12,14 +12,48 @@
   	position: absolute;
   	color: white;
   	right: 20px;
-  	top: 30%;
+  	top: 250px;
+  	display: grid;
+  	grid-gap: 10px;
 
   	.navv {
+
   		color: #cecee3;
   		border-bottom: 2px dashed #2C3E50;
   		padding: .5rem;
   		text-align: start;
   	}
+
+  	.pushable {
+  		-webkit-tap-highlight-color: transparent;
+	    background: #091a28;
+
+	    border-radius: 12px;
+	    border: none;
+	    padding: 0;
+	    cursor: pointer;
+	    outline-offset: 4px;
+	    outline: none;
+	  }
+	  .front {
+	    display: block;
+	    padding: 10px 30px;
+	    border-radius: 12px;
+	    font-size: 1.25rem;
+	    background: #1f2937;
+	    color: white;
+	    transform: translateY(-6px);
+	  }
+
+	  .pushable:active .front {
+	    transform: translateY(-2px);
+	  }
+
+	  .pushable:hover .front {
+	  	background: #e91e63;
+	  }
+
+	  
   }
 }
 
@@ -132,10 +166,6 @@ body, html {
     }
   }
 }
-
-
-
-
 
 @keyframes mainBlock {
   0% {
