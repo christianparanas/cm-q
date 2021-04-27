@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins';
+  background: #2F495E;
 }
 
 #app {
@@ -21,14 +22,6 @@ body {
   	top: 250px;
   	display: grid;
   	grid-gap: 10px;
-
-  	.navv {
-
-  		color: #cecee3;
-  		border-bottom: 2px dashed #2C3E50;
-  		padding: .5rem;
-  		text-align: start;
-  	}
 
   	.pushable {
   		-webkit-tap-highlight-color: transparent;
@@ -67,10 +60,6 @@ body {
 * {
   margin: 0;
   padding: 0;
-}
-
-body, html {
-   overflow: hidden;
 }
 
 .container {
@@ -267,7 +256,7 @@ body, html {
 .page_container {
   padding: 20px;
   background: #2F495E;
-  height: 100vh;
+  height: fit-content;
   color: #f5f7fa;
   font-family: 'Poppins';
   position: relative;
@@ -305,12 +294,37 @@ body, html {
 
   .page_con {
     margin-top: 80px;
+    overflow-x: scroll;
 
     .title {
       background: #e91e63;
       width: fit-content;
       padding: 5px 10px;
       margin-bottom: 30px;
+
     }
+  }
+}
+
+a {
+  color: pink;
+}
+
+@media only screen and (min-width: 452px) {
+
+  #app {
+
+    .nav {
+      right: 40px;
+    }
+  }
+
+  .page_container {
+
+    .page_con {
+      width: fit-content;
+      margin: 80px auto;
+      overflow-x: hidden;
+    }    
   }
 }
